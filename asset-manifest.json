@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/christian-lacaste/static/css/main.7b0c1399.css",
-    "main.js": "/christian-lacaste/static/js/main.84b0fc88.js",
+    "main.js": "/christian-lacaste/static/js/main.d3cb0483.js",
     "static/media/my_self.png": "/christian-lacaste/static/media/my_self.2af06bf39bc664a53bb5.png",
     "static/media/p2.jpg": "/christian-lacaste/static/media/p2.0cb55d1c1a31b27c7eb8.jpg",
+    "static/media/p1.jpg": "/christian-lacaste/static/media/p1.09a63abfba42a9dc062b.jpg",
     "static/media/Lacaste,Christian-Resume.pdf": "/christian-lacaste/static/media/Lacaste,Christian-Resume.7f8ae0d627552599a0cb.pdf",
     "static/media/p3.jpg": "/christian-lacaste/static/media/p3.4299db66f2d9bdeabf13.jpg",
     "static/media/main_react_icon.png": "/christian-lacaste/static/media/main_react_icon.a16a498e829d72ea9f25.png",
@@ -36,10 +37,10 @@
     "static/media/projectsWave.svg": "/christian-lacaste/static/media/projectsWave.a4f557b97cdddbc72ad92da8309ffb8a.svg",
     "static/media/burgerBtn.svg": "/christian-lacaste/static/media/burgerBtn.a57ac13ca36dc9907ea6.svg",
     "main.7b0c1399.css.map": "/christian-lacaste/static/css/main.7b0c1399.css.map",
-    "main.84b0fc88.js.map": "/christian-lacaste/static/js/main.84b0fc88.js.map"
+    "main.d3cb0483.js.map": "/christian-lacaste/static/js/main.d3cb0483.js.map"
   },
   "entrypoints": [
     "static/css/main.7b0c1399.css",
-    "static/js/main.84b0fc88.js"
+    "static/js/main.d3cb0483.js"
   ]
 }
