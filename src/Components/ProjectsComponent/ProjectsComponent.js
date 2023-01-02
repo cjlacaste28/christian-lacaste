@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import { Col, Row } from 'react-bootstrap';
 import './ProjectsStyle.css';
 import projectsWave from '../../Assets/projectsWave.svg';
+import project1Img from '../../Assets/p1.jpg';
 import project2Img from '../../Assets/p2.jpg';
 import project3Img from '../../Assets/p3.jpg';
 import SkillUsed from '../SkillUsedComponent/SkillUsedComponent';
@@ -27,7 +28,7 @@ useEffect(() => {
 			</Row>
 			<Row className='project__container mt-5' data-aos="fade-up" data-aos-duration="1000">
         		<Col className='project__image--container col-12 col-xl-6 mb-md-5'>
-					<img className='project__image w-100' src={project3Img} alt='enfra-project' />
+					<img className='project__image w-100' src={project1Img} alt='portfolio' />
 				</Col>
 				<Col className='project__details--container col-12 col-xl-6'>
 					<Row className='project__title--wrapper mt-2'>
