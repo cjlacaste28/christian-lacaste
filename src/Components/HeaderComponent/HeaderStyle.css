@@ -1,0 +1,238 @@
+.header__container{
+	height: 110vh !important;
+	max-height: 1080px;
+	background: linear-gradient(260.15deg, #DE9E48 0%, rgba(222, 158, 72, 0.1) 100%);
+	position: relative;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.header-content__wrapper {
+	height: calc(100vh - 69px);
+	max-height: 720px;
+}
+
+.header-column__left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30px;
+	-webkit-animation: slide-bottom_img_intro .75s ease both;
+    animation: slide-bottom_img_intro .75s ease both;
+}
+
+.header__name{
+	font-family: 'League Spartan';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 64px;
+	line-height: 54px;
+	color: #372C2E;
+}
+
+.header__role{
+	font-family: 'Libre Baskerville';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 28px;
+	color: #372C2E;
+}
+
+.header-cta__wrapper{
+	padding-left: 12px;
+	gap: 20px;
+}
+
+.header-cta__wrapper a{
+	width: 180px;
+	height: 50px;
+	border-radius: 30px;
+	font-family: 'League Spartan';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 15px;
+	letter-spacing: 3px;
+	color: #372C2E;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: center;
+	padding-top:15px;
+}
+
+.know-more__a{
+	background: #DE9E48;
+	border: 3px solid #DE9E48;
+}
+
+.know-more__a:hover{
+	color: #fff;
+}
+
+.download-cv__a{
+	border: 3px solid #DE9E48;
+	background: transparent;
+}
+
+.download-cv__a:hover{
+	color: #fff;
+	background: #DE9E48;
+}
+
+.header-social__wrapper{
+	padding-left: 12px;
+	gap: 20px;
+}
+
+.header-social__wrapper a{
+	width: 40px;
+}
+
+.header-social__wrapper a:nth-child(2){
+	padding-top: 4px;
+}
+
+.header-social__wrapper img{
+	margin-left: -12px;
+}
+
+
+.header-column__right{
+	display: flex;
+	align-items: center;
+}
+
+.header__portrait{
+	width: 80%;
+	display: block;
+	margin-inline: auto;
+	-webkit-animation: slide-bottom_img_intro 2s ease both;
+    animation: slide-bottom_img_intro 2s ease both;
+}
+@-webkit-keyframes slide-bottom_img_intro {
+    0% {
+      margin-bottom: 100px;
+    }
+    100% {
+      margin-bottom: 0px;
+    }
+  }
+  @keyframes slide-bottom_img_intro {
+    0% {
+      margin-bottom: 100px;
+    }
+    100% {
+      margin-bottom: 0px;
+    }
+}
+
+.header__wave{
+	position:absolute;
+	bottom: -1px;
+	width: 100%;
+}
+
+
+
+@media (max-width: 1199px) {
+	.header__name {
+		font-size: 58px;
+		line-height: 48px;
+	}
+}
+
+@media (max-width: 991px){
+	.header-content__wrapper{
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: nowrap;
+	}
+	
+	.header__portrait{
+		width: 250px;
+	}
+
+	.header__wave {
+		left: 0px;
+		width: calc(100% + 1px);
+		overflow: hidden;
+	}
+
+	.header-column__left {
+		justify-content: start;
+		text-align: center;
+	}
+
+	.header-cta__wrapper, .header-social__wrapper{
+		justify-content: center;
+	}
+
+	.header-cta__wrapper {
+		padding-left: 0px;
+		gap: 20px;
+	}
+
+	.header__portrait{
+		-webkit-animation: slide-top_header--image 2s ease both;
+		animation: slide-top_header--image 2s ease both;
+	}
+
+	@-webkit-keyframes slide-top_header--image {
+		0% {
+		  margin-top: -80px;
+		}
+		100% {
+		  margin-top: 0px;
+		}
+	  }
+	  @keyframes slide-top_header--image {
+		0% {
+		  margin-top: -80px;
+		}
+		100% {
+		  margin-top: 0px;
+		}
+	}
+
+	.header-column__left{
+		-webkit-animation: slide-top_header 2s ease both;
+		animation: slide-top_header 2s ease both;
+	}
+
+	@-webkit-keyframes slide-top_header {
+		0% {
+		  margin-top: 100px;
+		}
+		100% {
+		  margin-top: 0px;
+		}
+	  }
+	  @keyframes slide-top_header {
+		0% {
+		  margin-top: 100px;
+		}
+		100% {
+		  margin-top: 0px;
+		}
+	}
+}
+
+@media(max-width:425px) {
+	.header__portrait {
+		width: 250px;
+	}
+	.header__name {
+		font-size: 42px;
+		line-height: 38px;
+	}
+	.header__role {
+		font-size: 24px;
+	}
+	.header-column__left {
+		gap: 20px;
+	}
+	.header__container {
+		height: 100vh !important;
+	}
+}

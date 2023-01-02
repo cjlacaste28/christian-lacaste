@@ -1,0 +1,56 @@
+.navbar__container{
+	background-color: #372C2E !important;
+}
+
+#logo-img {
+	width: 100px;
+}
+
+.nav-link{
+	font-family: 'League Spartan';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.nav-link, .nav-link:focus, .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link  {
+	color: #fff;
+}
+
+.nav-link:hover{
+    color: #de9e48 !important;
+}
+
+.nav-link__container{
+	gap:30px;
+}
+
+.nav-link__container>*{
+	width: auto !important;
+}
+
+.ls-3{
+	letter-spacing: 3px;
+}
+
+.navbar-toggler-icon{
+	background-image: url(../../Assets/burgerBtn.svg) !important;
+}
+
+.navbar-toggler{
+	border: 1px solid rgba(255, 255, 255, 1) !important;
+	color:rgba(255, 255, 255, 1) !important;
+}
+
+@media (max-width: 991px){
+	.nav-link{
+		text-align: center;
+	}
+	.nav-link__container{
+		flex-direction: column !important;
+		gap: 5px;
+	}
+	.nav-link__container>*{
+		width: 100% !important;
+	}
+}
