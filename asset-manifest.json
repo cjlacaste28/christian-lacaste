@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/christian-lacaste/static/css/main.e8a6c30d.css",
+    "main.css": "/christian-lacaste/static/css/main.7b0c1399.css",
     "main.js": "/christian-lacaste/static/js/main.84b0fc88.js",
     "static/media/my_self.png": "/christian-lacaste/static/media/my_self.2af06bf39bc664a53bb5.png",
     "static/media/p2.jpg": "/christian-lacaste/static/media/p2.0cb55d1c1a31b27c7eb8.jpg",
@@ -35,11 +35,11 @@
     "static/media/aboutWave-bot.svg": "/christian-lacaste/static/media/aboutWave-bot.8557c8dac77ba7d32d2e01b5d517321f.svg",
     "static/media/projectsWave.svg": "/christian-lacaste/static/media/projectsWave.a4f557b97cdddbc72ad92da8309ffb8a.svg",
     "static/media/burgerBtn.svg": "/christian-lacaste/static/media/burgerBtn.a57ac13ca36dc9907ea6.svg",
-    "main.e8a6c30d.css.map": "/christian-lacaste/static/css/main.e8a6c30d.css.map",
+    "main.7b0c1399.css.map": "/christian-lacaste/static/css/main.7b0c1399.css.map",
     "main.84b0fc88.js.map": "/christian-lacaste/static/js/main.84b0fc88.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8a6c30d.css",
+    "static/css/main.7b0c1399.css",
     "static/js/main.84b0fc88.js"
   ]
 }
