@@ -48,7 +48,7 @@ useEffect(() => {
 					</Row>
 				</Col>
 			</Row>
-			<Row className='project__container pt-5' data-aos="fade-up" data-aos-duration="1000">
+			{/* <Row className='project__container pt-5' data-aos="fade-up" data-aos-duration="1000">
         		<Col className='project__image--container col-12 col-xl-6 mb-md-5'>
 					<img className='project__image w-100' src={project2Img} alt='enfra-project' />
 				</Col>
@@ -66,7 +66,7 @@ useEffect(() => {
 						<a href="https://www.doctorchaney.com/" target="_blank" rel="noreferrer" className='project__link'>LIVE SITE</a>
 					</Row>
 				</Col>
-			</Row>
+			</Row> */}
 			<Row className='project__container mt-5' data-aos="fade-up" data-aos-duration="1000">
         		<Col className='project__image--container col-12 col-xl-6 mb-md-5'>
 					<img className='project__image w-100' src={project3Img} alt='enfra-project' />
